@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.heart {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background-color: transparent;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  border-radius: 50% 50% 0 0;
+  animation: drawHeart 2s linear infinite;
+}
+
+.heart::before {
+  left: 50%;
+  transform: translateX(-90%) rotate(-45deg) scaleY(1.3); /* Ajuste aqui */
+}
+
+.heart::after {
+  left: 0;
+  transform: translateX(70%) rotate(45deg) scaleY(1.3) scaleX(-1); /* Ajuste aqui */
+}
+
+@keyframes drawHeart {
+  0%, 25% {
+    width: 0;
+    height: 0;
+    border-color: transparent;
+  }
+  50%, 100% {
+    width: 50px;
+    height: 80px;
+    border-color: red;
+  }
+}
