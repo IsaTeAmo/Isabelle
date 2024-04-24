@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Isabelle/static/css/main.e098ac08.css",
+    "main.js": "/Isabelle/static/js/main.d3ef33db.js",
+    "static/js/453.12607e9e.chunk.js": "/Isabelle/static/js/453.12607e9e.chunk.js",
+    "static/media/logo.svg": "/Isabelle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Isabelle/index.html",
+    "main.e098ac08.css.map": "/Isabelle/static/css/main.e098ac08.css.map",
+    "main.d3ef33db.js.map": "/Isabelle/static/js/main.d3ef33db.js.map",
+    "453.12607e9e.chunk.js.map": "/Isabelle/static/js/453.12607e9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e098ac08.css",
+    "static/js/main.d3ef33db.js"
+  ]
+}
