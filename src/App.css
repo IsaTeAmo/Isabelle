@@ -54,7 +54,7 @@
   border-top: 2px solid red;
   border-left: 2px solid red;
   border-radius: 50% 50% 0 0;
-  animation: drawHeart 2s linear infinite;
+  animation: drawHeart 2s linear infinite, stayOnScreen 20s linear forwards; /* Ajuste aqui */
 }
 
 .heart::before {
@@ -78,4 +78,100 @@
     height: 80px;
     border-color: red;
   }
+}
+
+.buttonLike {
+  display: inline-block;
+  padding: 10px 20px; /* ajuste o padding conforme necessário */
+  font-size: 16px; /* ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* cor do texto */
+  background-color: #007bff; /* cor de fundo do botão */
+  border: none;
+  border-radius: 5px; /* ajuste o raio da borda conforme necessário */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonLike:hover {
+  background-color: #0056b3; /* cor de fundo do botão quando hover */
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  transition: opacity 0.3s;
+}
+
+.card.hovered {
+  opacity: 0.5;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card-content.visible {
+  opacity: 1;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
 }

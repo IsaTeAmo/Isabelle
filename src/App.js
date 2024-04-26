@@ -1,13 +1,21 @@
-import logo from './logo.svg';
+
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Painel from './pages/Painel.js';
+import Home from './pages/Home.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Isa te amo</h1>
-        <div className='heart'></div>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Isabelle" element={<Painel/>}/>
+          
+        </Routes>
+      </Router>
+      {/*  */}
+      
     </div>
   );
 }

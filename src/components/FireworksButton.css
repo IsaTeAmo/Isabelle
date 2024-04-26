@@ -1,0 +1,54 @@
+.fireworks-container {
+    position: relative;
+    width: 200px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+  }
+  
+  .fireworks-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .fireworks {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 200px; /* Altura máxima da animação */
+    background: linear-gradient(to top, #ffcc00, transparent); /* Cores dos fogos de artifício */
+    animation: fireworks-rise 2s linear forwards;
+  }
+  
+  @keyframes fireworks-rise {
+    from {
+      height: 0;
+    }
+    to {
+      height: 200px; /* Altura máxima da animação */
+    }
+  }
+  
+  .explosion {
+    position: absolute;
+    bottom: 200px; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, #ff0000 0%, transparent 100%);
+    animation: explosion 2s linear forwards;
+  }
+  
+  @keyframes explosion {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+    to {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  
