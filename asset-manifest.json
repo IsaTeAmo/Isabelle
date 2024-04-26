@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/Isabelle/static/css/main.e098ac08.css",
-    "main.js": "/Isabelle/static/js/main.d3ef33db.js",
+    "main.css": "/Isabelle/static/css/main.4c0c85c8.css",
+    "main.js": "/Isabelle/static/js/main.943c9f5f.js",
     "static/js/453.12607e9e.chunk.js": "/Isabelle/static/js/453.12607e9e.chunk.js",
-    "static/media/logo.svg": "/Isabelle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/jpg": "/Isabelle/static/media/a0cb3885c44b8305ac89ba7ce98e8cd978bf3ebba6a151a00dbf2d528e98bf3b.867714f60b3a754eb210.jpg",
+    "static/media/one-piece-1-1.jpg": "/Isabelle/static/media/one-piece-1-1.002db2ff5bfd851c0524.jpg",
+    "static/media/i521738.jpeg": "/Isabelle/static/media/i521738.23730fc70ca6515edc38.jpeg",
+    "static/media/luffy_capa.jpg": "/Isabelle/static/media/luffy_capa.3c8234b99019759dab71.jpg",
     "index.html": "/Isabelle/index.html",
-    "main.e098ac08.css.map": "/Isabelle/static/css/main.e098ac08.css.map",
-    "main.d3ef33db.js.map": "/Isabelle/static/js/main.d3ef33db.js.map",
+    "main.4c0c85c8.css.map": "/Isabelle/static/css/main.4c0c85c8.css.map",
+    "main.943c9f5f.js.map": "/Isabelle/static/js/main.943c9f5f.js.map",
     "453.12607e9e.chunk.js.map": "/Isabelle/static/js/453.12607e9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e098ac08.css",
-    "static/js/main.d3ef33db.js"
+    "static/css/main.4c0c85c8.css",
+    "static/js/main.943c9f5f.js"
   ]
 }
