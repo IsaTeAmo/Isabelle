@@ -1,7 +1,7 @@
 {
   "name": "isabelle",
   "version": "0.1.0",
-  "homepage": "https://IsaTeAmo.github.io/Isabelle",
+  "homepage": "https://IsaTeAmo.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
