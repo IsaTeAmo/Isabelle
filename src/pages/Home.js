@@ -6,7 +6,7 @@ function Home(){
         <div>
         <header className="App-header">
             <h1>Isa te amo muito</h1>
-            <Link to="/Isabelle" className='buttonLike'> TE AMO </Link>
+            <Link to="/Isabelle/TeAmo" className='buttonLike'> TE AMO </Link>
         </header>
 
         </div>
